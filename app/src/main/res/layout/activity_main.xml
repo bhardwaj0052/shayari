@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/grade1"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="60dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="कि तुम रुठ गए तो दिक्कत हो जाएगी,
+        अगर मैंने मनाया तो मोहब्बत हो जायेगी,
+        कुछ फासले यूँ ही बरक़रार रहने दो,
+        तुम जो मर्जी कर लो मगर प्यार रहने दो"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="NEXT"
+        android:gravity="center"
+        ></Button>
+
+</LinearLayout>

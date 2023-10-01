@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/grade1"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="60dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="की कितने घुटने घिसे है मोहब्बत में याद रखना,
+ खुद की नज़रो में कितनी बार गिरे है याद रखना,
+ याद रखना की ये प्यार करने का सिला था वो ,
+किसी पर मर-मिटने की सजा मिली थी,
+ वो आएगा एक दिन रास्ता बदलकर मिलने,
+ उसे कहना ये रास्ता गलत है आगे से याद रखे "
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="EXIT"
+        android:gravity="center" />
+
+</LinearLayout>
